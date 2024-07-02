@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --rem: 10px;
+  font-size: var(--rem);
+  --color-primary: #3c60fc;
+}
+body {
+  background-color: #131315;
+  padding-inline: 4rem;
+}
+.nav-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 2rem;
+}
+.btn-cta {
+  background-color: var(--color-primary);
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+.btn-cta-secondary {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  color: #fff;
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  row-gap: 3rem;
+  padding-top: 3rem;
+}
+.text-box,
+.img-box {
+  flex: 1;
+}
+.img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-box img {
+  border-radius: 50%;
+}
+h1 {
+  font-size: 6rem;
+  color: #fff;
+  padding-bottom: 4rem;
+}
+.icons {
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 4rem;
+}
+.actions {
+  display: flex;
+  gap: 4rem;
+}
+.section-about {
+  padding-block: 9rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.about-text-box {
+  background-color: #f5f7ff;
+  padding: 3rem 2rem;
+  flex: 1;
+  border-radius: 11px;
+}
+.about-img-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.ids {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 1rem;
+}
+.name {
+  color: var(--color-primary);
+  font-size: 3rem;
+}
+.email {
+  font-size: 1.6rem;
+  color: gray;
+}
+.data {
+  display: flex;
+  gap: 3rem;
+  font-size: 1.6rem;
+  padding-bottom: 2rem;
+}
+.text {
+  font-size: 1.8rem;
+}
+
+footer {
+  padding-block: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+
+  a {
+    text-decoration: none;
+    color: #d3d1d1;
+    font-size: 1.8rem;
+    transition: 0.3s all ease-in-out;
+  }
+  a:hover {
+    color: var(--color-primary);
+  }
+}
